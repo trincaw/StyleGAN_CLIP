@@ -1,12 +1,13 @@
 # StyleGAN_CLIP
- StyleGAN2 + CLIP
+This project offers an implementation of StyleGAN 2 and 3 with CLIP. StyleGAN_CLIP uses technique for manipulating images by leveraging textual descriptions. By merging the generative potential of a pretrained StyleGAN generator with the visual-language capabilities of CLIP, StyleCLIP empowers users to produce visually captivating images guided by text inputs.
 
 ## Installation
  - ``` git clone https://github.com/NVlabs/stylegan3 ```
  - ``` git clone https://github.com/openai/CLIP ```
  - for dependency check https://github.com/ouhenio/StyleGAN3-CLIP-notebooks
 ## Usage
- ```.bash
+This project is specifically designed and tested with the StyleGAN2 pretrained model from the StyleGAN3 repository.
+```.bash
 python main.py
  ```
 ## References
