@@ -7,6 +7,10 @@ This project offers an implementation of StyleGAN 2 and 3 with CLIP. StyleGAN_CL
  - for dependency check https://github.com/ouhenio/StyleGAN3-CLIP-notebooks
 ## Usage
 This project is specifically designed and tested with the StyleGAN2 pretrained model from the StyleGAN3 repository.
+- Download the pretrained StyleGAN2 model (in .pkl format) from the StyleGAN3 repository or use a custom one.
+- Move the downloaded .pkl file to the main path of the StyleGAN_CLIP implementation.
+- Update the name of the model file in the code to match the newly placed .pkl file and adjust parameters.
+- Run with
 ```.bash
 python main.py
  ```
