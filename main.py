@@ -1,25 +1,15 @@
-import glob
-import time
 import os
 from einops import rearrange
-from torchvision.transforms import Compose, Resize, ToTensor, Normalize
-from tqdm.notebook import tqdm
-import re
-import unicodedata
 import clip
 import torchvision.transforms.functional as TF
 import torchvision.transforms as transforms
-import requests
 import torch.nn.functional as F
 import torch
-from PIL import Image
 import numpy as np
-import shutil
 import cv2
-import imageio
 import pickle
-import io
 import sys
+
 sys.path.append('./CLIP')
 sys.path.append('./stylegan3')
 
