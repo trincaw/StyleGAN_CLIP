@@ -2,8 +2,8 @@
  StyleGAN2 + CLIP
 
 ## Installation
- - git clone https://github.com/NVlabs/stylegan3
- - git clone https://github.com/openai/CLIP
+ - ```.bash git clone https://github.com/NVlabs/stylegan3 ```
+ - ```.bash git clone https://github.com/openai/CLIP ```
  - for dependency check https://github.com/ouhenio/StyleGAN3-CLIP-notebooks
 ## Usage
  ```.bash
