@@ -5,7 +5,10 @@ This project offers an implementation of StyleGAN 2 and 3 with CLIP. StyleGAN_CL
 Go to the project path and follow the instructions:
  - ``` git clone https://github.com/NVlabs/stylegan3 ```
  - ``` git clone https://github.com/openai/CLIP ```
- - for dependency installation check https://github.com/ouhenio/StyleGAN3-CLIP-notebooks
+ - ``` pip install -e ./CLIP ```
+ - ``` pip install einops ninja ```
+ - ``` pip install -r requirements.txt ```
+ - for other dependency check https://github.com/ouhenio/StyleGAN3-CLIP-notebooks
 ## Usage
 This project is specifically designed and tested with the StyleGAN2 pretrained model from the StyleGAN3 repository.
 - Download the pretrained StyleGAN2 model (in .pkl format) from the StyleGAN3 repository or use a custom one.
