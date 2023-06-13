@@ -3,6 +3,7 @@ This project offers an implementation of StyleGAN 2 and 3 with CLIP. StyleGAN_CL
 
 ## Installation
 Go to the project path and follow the instructions:
+ - Install CUDA 11.8
  - ``` pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 ```
  - ``` git clone https://github.com/NVlabs/stylegan3 ```
  - ``` git clone https://github.com/openai/CLIP ```
