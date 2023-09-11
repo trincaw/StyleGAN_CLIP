@@ -1,5 +1,5 @@
 # StyleGAN_CLIP
-StyleGAN_CLIP harnesses the combined capabilities of StyleGAN2-ADA and CLIP to enable image creation, manipulation, and exploration. It primarily integrates with StyleGAN for seamless image synthesis. Additionally, it incorporates a unique algorithm for latent vector editing with CLIP, significantly expanding the creative possibilities for StyleGAN-generated content. Also a [graphical user interface (GUI)](https://github.com/trincaw/StyleGAN_CLIP_GUI) 
+StyleGAN_CLIP harnesses the combined capabilities of StyleGAN2-ADA and CLIP to enable image creation, manipulation, and exploration. It primarily integrates with StyleGAN for seamless image synthesis. Additionally, it incorporates a unique algorithm for latent vector editing with CLIP, significantly expanding the creative possibilities for StyleGAN-generated content. The enhanced code featuring a graphical user interface (GUI) can be accessed [here](https://github.com/trincaw/StyleGAN_CLIP_GUI).
 
 ## Installation
 Go to the project path and follow the instructions:
