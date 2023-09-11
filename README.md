@@ -1,5 +1,5 @@
 # StyleGAN_CLIP
-This project offers an implementation of StyleGAN 2 and 3 with CLIP. StyleGAN_CLIP uses technique for manipulating images by leveraging textual descriptions. By merging the generative potential of a pretrained StyleGAN generator with the visual-language capabilities of CLIP, StyleCLIP empowers users to produce visually captivating images guided by text inputs.
+StyleGAN_CLIP harnesses the combined capabilities of StyleGAN2-ADA and CLIP to enable image creation, manipulation, and exploration. It primarily integrates with StyleGAN for seamless image synthesis. Additionally, it incorporates a unique algorithm for latent vector editing with CLIP, significantly expanding the creative possibilities for StyleGAN-generated content. Also a [graphical user interface (GUI)](https://github.com/trincaw/StyleGAN_CLIP_GUI) 
 
 ## Installation
 Go to the project path and follow the instructions:
